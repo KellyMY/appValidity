@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "AppValidity",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
