@@ -10,7 +10,15 @@ const routes: Routes = [
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
+  },  {
+    path: 'add-validity',
+    loadChildren: () => import('./add-validity/add-validity.module').then( m => m.AddValidityPageModule)
   },
+  {
+    path: 'list-validity',
+    loadChildren: () => import('./list-validity/list-validity.module').then( m => m.ListValidityPageModule)
+  },
+
 ];
 
 @NgModule({
